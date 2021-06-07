@@ -1,0 +1,9 @@
+.subtitle {
+  font-family: var(--second-type);
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.valor .subtitle {
+  text-align: center;
+}

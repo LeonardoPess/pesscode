@@ -1,0 +1,28 @@
+.title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.title::before,
+.title::after {
+  content: '';
+  width: 200px;
+  height: 2px;
+
+  display: block;
+  margin: 0 auto;
+
+  font-weight: 700;
+  font-family: var(--second-type);
+  background: var(--primary-color);
+}
+
+.title::before {
+  margin-bottom: 2rem;
+}
+
+.title::after {
+  margin-top: 2rem;
+}
+

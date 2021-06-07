@@ -1,0 +1,32 @@
+.button {
+  min-width: 200px;
+  padding: 1rem 2rem;
+
+  cursor: pointer;
+  background: var(--primary-color);
+  font-family: var(--first-type);
+  color: var(--gray-color);
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  border-left: 2px solid var(--primary-color-darker);
+  border-bottom: 2px solid var(--primary-color-darker);
+  transition: .3s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+
+  background: var(--primary-color-darker);
+}
+
+a.button {
+  padding: 1rem 2rem;
+
+  border-radius: 10px;
+  font-weight: 700;
+  color: #515151;
+  background: var(--primary-color);
+}

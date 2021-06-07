@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #33BBFF;
+  --primary-color-darker: #0E94D7;
+  /* --secondary-color: #1f2839; */
+  --white-color: #ffffff;
+  --gray-color: #333333;
+  --gray-color-darker: #222222;
+  --gray-color-lighter: #C4C4C4;
+
+  --first-type: 'Roboto', sans-serif;
+  --second-type: Times New Roman;
+}

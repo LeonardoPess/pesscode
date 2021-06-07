@@ -1,0 +1,14 @@
+@import './base/fonts.css';
+@import './abstracts/variables.css';
+@import './geral.css';
+@import './components/header.css';
+@import './components/title.css';
+@import './components/subtitle.css';
+@import './components/form.css';
+@import './components/button.css';
+@import './components/scrollbar.css';
+@import './components/menuBtn.css';
+@import './components/slide.css';
+@import './components/flipCard.css';
+@import './pages/home.css';
+@import './base/animations.css';

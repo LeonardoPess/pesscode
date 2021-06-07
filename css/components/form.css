@@ -1,0 +1,55 @@
+form {
+  margin-top: 1rem;
+}
+
+.label {
+  display: block;
+
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  height: 3.4rem;
+
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+
+  background: #5B5B5B;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid var(--gray-color-darker);
+  transition: border .3s;
+}
+
+.input:hover,
+.input:focus,
+button:focus {
+  border: 2px solid white;
+}
+
+textarea.input {
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+.formphp label.nao-aparece, .formphp input.nao-aparece {
+	display: none !important;
+}
+
+#form-erro span, #form-send span  {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#form-send {
+	color: var(--primary-color-darker);
+}
+
+#form-erro {
+	color: #f64540;
+}
